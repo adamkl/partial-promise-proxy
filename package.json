@@ -1,0 +1,17 @@
+{
+  "name": "graphql-promise-proxy",
+  "version": "1.0.0",
+  "description": "wraps an object in a proxy that allows access to an id field while the remaining fields are retrieved asynchronously",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": "git@github.com:adamkl/graphql-promise-proxy.git",
+  "author": "Kreczko-Lenner, Adam <adam_kreczko-lenner@manulife.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf lib && tsc"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.2",
+    "typescript": "^2.5.3"
+  }
+}

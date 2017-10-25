@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "lib": ["esnext"],
+    "module": "commonjs",
+    "strictNullChecks": true,
+    "target": "es5",
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "outDir": "lib"
+  },
+  "compileOnSave": false,
+  "exclude": ["node_modules"]
+}
