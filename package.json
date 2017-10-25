@@ -1,8 +1,7 @@
 {
   "name": "partial-promise-proxy",
-  "version": "1.0.0",
-  "description":
-    "Combines a partially defined object with a function that returns a promise of the rest of the partial object.",
+  "version": "1.0.1",
+  "description": "Combines a partially defined object with a function that returns a promise of the rest of the partial object.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": "git@github.com:adamkl/partial-promise-proxy.git",
