@@ -1,2 +1,3 @@
-# graphql-promise-proxy
-wraps an object in a proxy that allows access to an id field while the remaining fields are retrieved asynchronously
+# partial-promise-proxy
+
+Combines a partially defined object with a function that returns a promise of the rest of the partial object. Any properties defined in the initial partial object will be available immediately, while other properties will wait for the resolution of the promise.
