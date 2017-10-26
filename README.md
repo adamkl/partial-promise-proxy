@@ -3,8 +3,14 @@
 Combines a partially defined object with a function that returns a promise of the rest of the partial object. Any properties defined in the initial partial object will be available immediately, while other properties will wait for the resolution of the promise. (credit goes to [@brysgo](https://github.com/brysgo) for the idea)
 
 ## Install
+```sh
+yarn add partial-promise-proxy
 ```
-npm i partial-promise-proxy
+
+Or using npm
+
+```sh
+npm install --save partial-promise-proxy
 ```
 
 ## Usage
