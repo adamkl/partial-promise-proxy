@@ -3,15 +3,18 @@
 Combines a partially defined object with a function that returns a promise of the rest of the partial object. Any properties defined in the initial partial object will be available immediately, while other properties will wait for the resolution of the promise. (credit goes to [@brysgo](https://github.com/brysgo) for the idea)
 
 ## Usage
----
+
 ```typescript
 function partialPromiseProxy(partialObject, partialFunc)
 ```
+
 ### Arguments
+
 - `partialObject`: a javascript object that consists of the properties that should be available immediately
 - `partialFunc`: a function that returns a promise for the remaining properties of the object
+
 ## Why would you ever want to do this?
----
+
 When building out a GraphQL API that wraps a set of legacy services, its not uncommon to end up with a scenario that looks like this:
 ```typescript
 const Address = new GraphQLObjectType({
