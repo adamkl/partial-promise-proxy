@@ -2,6 +2,11 @@
 
 Combines a partially defined object with a function that returns a promise of the rest of the partial object. Any properties defined in the initial partial object will be available immediately, while other properties will wait for the resolution of the promise. (credit goes to [@brysgo](https://github.com/brysgo) for the idea)
 
+## Install
+```
+npm i partial-promise-proxy
+```
+
 ## Usage
 
 ```typescript
@@ -66,6 +71,8 @@ Because GraphQL can handle resolvers that return either the value or a promise o
 
 Changing the code above to use a `partial-promise-proxy` allows both legacy service calls to execute without waiting:
 ```typescript
+import { partialPromiseProxy } from "partial-promise-proxy";
+
 const Address = new GraphQLObjectType({
   name: "address",
   fields: {
