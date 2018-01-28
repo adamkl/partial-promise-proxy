@@ -1,4 +1,6 @@
-# partial-promise-proxy
+# partial-promise-proxy 
+[![npm version](https://badge.fury.io/js/partial-promise-proxy.svg)](https://badge.fury.io/js/partial-promise-proxy)
+[![Build Status](https://travis-ci.org/adamkl/partial-promise-proxy.svg?branch=master)](https://travis-ci.org/adamkl/partial-promise-proxy)
 
 Combines a partially defined object with a function that returns a promise of the rest of the partial object. Any properties defined in the initial partial object will be available immediately, while other properties will wait for the resolution of the promise. (credit goes to [@brysgo](https://github.com/brysgo) for the idea)
 
