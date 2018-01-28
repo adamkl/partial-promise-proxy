@@ -1,6 +1,6 @@
 {
   "name": "partial-promise-proxy",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Combines a partially defined object with a function that returns a promise of the rest of the partial object.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
