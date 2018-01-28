@@ -1,8 +1,16 @@
 language: node_js
 sudo: false
 node_js:
-  - "node"
+- node
 install:
-  - yarn install
+- yarn install
 script:
-  - yarn test
+- yarn test
+deploy:
+  provider: npm
+  email: adam@kreczko-lenner.com
+  api_key: $NPM_TOKEN
+  on:
+    tags: true
+    branch: master
+    repo: adamkl/partial-promise-proxy
