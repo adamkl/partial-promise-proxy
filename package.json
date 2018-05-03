@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": "git@github.com:adamkl/partial-promise-proxy.git",
-  "author": "Kreczko-Lenner, Adam <adam_kreczko-lenner@manulife.com>",
+  "author": "Adam Kreczko-Lenner",
   "license": "MIT",
   "scripts": {
     "build": "rimraf lib && tsc",
